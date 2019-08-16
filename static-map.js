@@ -1,9 +1,3 @@
-//npm i express
-//npm i ejs
-//npm i webshot
-
-//http://localhost:8080/static-map/?lat=-23.552349&long=-46.653309&zoom=18
-
 const url = require('url');
 const express = require('express');
 const app = express();
