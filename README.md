@@ -8,6 +8,6 @@ http://localhost:8080/static-map/?lat=-23.552349&long=-46.653309&zoom=18
 
 # Dependencies
 
-npm i express
-npm i ejs
-npm i webshot
+<p>npm i express
+<p>npm i ejs
+<p>npm i webshot
