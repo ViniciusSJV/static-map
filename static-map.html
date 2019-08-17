@@ -34,7 +34,7 @@
         var map = L.map('map').setView([<%= lat %>, <%= long %>], <%= zoom %>);
 
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">Powered by Agile Process</a> contributors'
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">Static Map</a> contributors'
         }).addTo(map);
 
         L.marker([<%= lat %>, <%= long %>]).addTo(map);
